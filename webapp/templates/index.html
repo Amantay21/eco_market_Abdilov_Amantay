@@ -17,7 +17,7 @@
             <h5 class="card-title">{{ product.title }}</h5>
                 <h5 class="card-title">{{ product }}</h5>
                 <h4 class="card-subtitle mb-2 text-body-secondary">{{ product.description }}</h4>
-
+<a href="{% url 'product_view' pk=product.pk %}" class="card-link">Подробнее...</a>
                 <form action="product/delete/" method="POST">
                 {% csrf_token %}
                     <input type="hidden" name="id" value="{{ product.id }}">
