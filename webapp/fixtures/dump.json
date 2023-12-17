@@ -1,0 +1,47 @@
+[
+{
+    "model": "webapp.prodcategory",
+    "pk": 1,
+    "fields": {
+        "title": "Овощи",
+        "description": "описание",
+        "image": "https://www.menslife.com/upload/iblock/84f/polza_ovoshchej.jpg"
+    }
+},
+{
+    "model": "webapp.prodcategory",
+    "pk": 2,
+    "fields": {
+        "title": "Фрукты",
+        "description": "описание",
+        "image": "https://www.mangolavka.com/upload/resize_cache/webp/iblock/4b1/4lkiqihejo3nbxhh51joabsrxs6d9tqq.webp"
+    }
+},
+{
+    "model": "webapp.prodcategory",
+    "pk": 3,
+    "fields": {
+        "title": "ФастФуд",
+        "description": "описание",
+        "image": "https://n1s1.hsmedia.ru/cc/fe/4e/ccfe4eed83b310952dcb6c04dd1e3480/728x542_1_0228ed0007dcc5d050f5e1acc911e4ee@1000x745_0xac120003_5859484181562663576.jpg"
+    }
+},
+{
+    "model": "webapp.prodcategory",
+    "pk": 4,
+    "fields": {
+        "title": "Лекарства",
+        "description": "описание",
+        "image": "https://www.akchabar.kg/media/news/c8c481ff-6f64-4c92-ab7c-cc3d782f6a85.jpg"
+    }
+},
+{
+    "model": "webapp.prodcategory",
+    "pk": 5,
+    "fields": {
+        "title": "Восточная кухня",
+        "description": "описание",
+        "image": "https://avatars.dzeninfra.ru/get-zen_doc/1687249/pub_5d1c4f2acbf26800ad3e52a7_5d1c4f347f053700b0a8374a/scale_1200"
+    }
+}
+]
