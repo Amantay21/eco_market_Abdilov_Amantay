@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{#{% load static %}#}
+
+{% block title %}{{ product.title }}{% endblock %}
+{% block menu %}<a class="nav-link" aria-current="page"  href="{% url 'index' %}">На главную</a>{% endblock %}
+
+{% block content %}
+    <h1>Product</h1>
+
+        <div class="card" >
+            <div class="card-body">
+                <img src="{{ product.image }}" alt="">
+                <h3 class="card-title">{{ product.title }}</h3>
+                <h5 class="card-title">{{ product.description }}</h5>
+                <h5 class="card-title">{{ product.category }}</h5>
+                <p class="card-text">{{ product.created_at }}</p>
+                <h2 class="card-title">{{ product.amount }}</h2>
+
+
+
+            </div>
+        </div>
+
+{% endblock %}
